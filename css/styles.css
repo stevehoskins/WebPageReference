@@ -1,0 +1,24 @@
+
+*   {
+    color: red;
+    background-color: #00ffff;
+}
+
+a  {
+    text-decoration: none;
+    color: black;
+}
+
+li  {
+    padding: 12px;
+
+}
+
+header {
+    font-size: 4em;
+    padding: 20px;
+}
+
+li  {
+    font-size: 1em;
+}
