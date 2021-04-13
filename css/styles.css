@@ -1,24 +1,36 @@
 
 *   {
     color: red;
-    background-color: #00ffff;
+    background-color: #000810;
+}
+
+h1  {
+    text-align: center;
+}
+
+h2  {
+    text-align: center;
 }
 
 a  {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 li  {
-    padding: 12px;
+    padding: 4px;
+    font-size: 1em;
+}
 
+code  {
+    color: white;
 }
 
 header {
-    font-size: 4em;
+ /*   font-size: 4em; */
     padding: 20px;
 }
 
-li  {
-    font-size: 1em;
+footer p  {
+    color: white;
 }
