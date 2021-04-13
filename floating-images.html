@@ -10,26 +10,28 @@
 
 <style>
     .img1   {
-        float: left;
         position: absolute;
         top: 150;
         left: 150;
+        z-index: 1;
     }
     .img2   {
-        float: left: ;
         position: relative;
         top: 250;
         left: 250;
+        z-index: 2;
     }
 </style>
 
 <body>
-    <h1>Floating Images!</h1>
-
-    <img class="img1" src="images/Tossa.jpg" alt="Pic" width=40%>
-
-    <img class="img2" src="images/desert.jpg" alt="Pic" width=40%>
-
+    <h1>Floating Images using z-index!</h1>
+    <div><img class="img1" src="images/Tossa.jpg" alt="Pic" width=40%></div>
+    <div><img class="img2" src="images/desert.jpg" alt="Pic" width=40%></div>
+    <div>
+    <a href="index.html">Back to Front Page!!!!</a>
+    <footer>
+        <p>Copyright 2021 Steve Hoskins</p>
+    </footer>
+    </div>
 </body>
-
 </html>
