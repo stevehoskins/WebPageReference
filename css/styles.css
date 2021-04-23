@@ -1,7 +1,11 @@
 
 *   {
     color: red;
-    background-color: #000810;
+    background-color: #002244;
+}
+
+p   {
+    color: white;
 }
 
 h1  {
@@ -32,5 +36,9 @@ header {
 }
 
 footer p  {
+    color: white;
+}
+
+ul li   {
     color: white;
 }
