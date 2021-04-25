@@ -1,12 +1,12 @@
-/**   {
-    color: red;
-    background-color: blue;
-}   */
-
 *   {
     color: red;
-    background-image: linear-gradient(to right, red, blue);
-}
+    background-color: blue;
+}   
+
+/**   {
+    color: red;
+    background-image: linear-gradient(to right, cyan, blue, cyan);
+}   */
 
 p   {
     color: white;
