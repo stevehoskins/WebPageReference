@@ -1,7 +1,11 @@
+/**   {
+    color: red;
+    background-color: blue;
+}   */
 
 *   {
     color: red;
-    background-color: blue;
+    background-image: linear-gradient(to right, red, blue);
 }
 
 p   {
