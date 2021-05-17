@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Java Start.</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1>Show Java Code!</h1>
+
+    <p>How to show example code on a Webpage!</p>
+    <p>Demostrated with Java code for using two class fies</p>
+    <p>to carry out simple calculations.</p>
+
+    <h2>This is the main class!</h2>
+
+    <pre>
+        <code>
+
+import java.util.Scanner;  // Import the Scanner class
+import java.lang.Math.*;
+
+public class JavaTest {
+    public static void main(String[] args) {
+
+        System.out.println("");
+        System.out.println("JavaTest.class");
+        System.out.println("");
+
+        testing tryTesting = new testing();
+
+        int option = 0;
+
+        Scanner getOption = new Scanner(System.in);
+
+        System.out.println("Options: \n");
+        System.out.println("Calculate Rectangle Area          : 1");
+        System.out.println("Calculate Rectangle Perimeter     : 2");
+        System.out.println("Calculate Area Of Circle          : 3");
+        System.out.println("Calculate Circumference Of Circle : 4");
+        System.out.println("Calculate Volume of a Sphere      : 5 \n");
+        System.out.print("Pick an option: ");
+
+        option = getOption.nextInt();
+
+        System.out.println("");
+
+        switch(option) {
+            case 1:
+                tryTesting.calculateArea();
+            break;
+
+            case 2:
+                tryTesting.calculatePerimeter();
+            break;
+
+            case 3:
+                tryTesting.calculateAreaOfCircle();
+            break;
+
+            case 4:
+                tryTesting.calculateCircumferenceOfCircle();
+            break;
+
+            case 5:
+                tryTesting.volumeOfSpere();
+            break;
+
+            default:
+                System.out.println("Invalid Option!");
+            break;
+        }
+        System.out.println("");
+    }
+}
+        </code>
+
+    </pre>
+
+    <h2>This is the class that does the calcs!</h2>
+
+    <pre>
+        <code>
+            
+import java.util.*;
+import java.lang.Math.*;
+
+public class testing  {
+
+    double length, width, areaOf, perimeterOf, radius;
+    double circumference, areaOfCircle, volumeOfSphere; 
+
+    public void calculateArea() {
+
+        System.out.println("CalculateArea Method");
+        System.out.println("");
+
+        Scanner getInput = new Scanner(System.in);
+
+        System.out.print("Enter width: ");
+        width = Double.parseDouble(getInput.nextLine());
+
+        System.out.print("Enter length: ");
+        length = Double.parseDouble(getInput.nextLine());
+
+        areaOf = length * width;
+
+        System.out.println("Length is: " + length);
+        System.out.println("Width is: " + width);
+        System.out.println("Area: " + areaOf);
+        System.out.println("");
+    }
+
+    public void calculatePerimeter() {
+
+        System.out.println("CalculatePerimeter Method");
+        System.out.println("");
+
+        Scanner getInput = new Scanner(System.in);
+
+        System.out.print("Enter width: ");
+        width = Double.parseDouble(getInput.nextLine());
+
+        System.out.print("Enter length: ");
+        length = Double.parseDouble(getInput.nextLine());
+
+        perimeterOf = 2 * (length + width);
+
+        System.out.println("Length is: " + length);
+        System.out.println("Width is: " + width);
+        System.out.println("Perimeter: " + perimeterOf);
+        System.out.println("");
+    }
+
+    public void calculateAreaOfCircle() {
+
+        System.out.println("CalculateAreaOfCircle Method");
+        System.out.println("");
+
+        Scanner getInput = new Scanner(System.in);
+
+        System.out.print("Enter radius: ");
+        radius = Double.parseDouble(getInput.nextLine());
+
+        areaOfCircle = Math.PI * Math.pow(radius, 2);
+
+        System.out.println("Radius is: " + radius);
+        System.out.println("Area of Circle: " + areaOfCircle);
+        System.out.println("");
+    }
+
+    public void calculateCircumferenceOfCircle() {
+
+        System.out.println("CalculateCircumferenceOfCircle Method");
+        System.out.println("");
+
+        Scanner getInput = new Scanner(System.in);
+
+        System.out.print("Enter radius: ");
+        radius = Double.parseDouble(getInput.nextLine());
+
+        circumference = Math.PI * 2 * radius;
+
+        System.out.println("Radius is: " + radius);
+        System.out.println("Circumference of Circle: "
+                             + circumference);
+        System.out.println("");
+    }
+
+    public void volumeOfSpere() {
+
+        System.out.println("volumeOfSphere Method");
+        System.out.println("");
+
+        Scanner getInput = new Scanner(System.in);
+
+        System.out.print("Enter radius: ");
+        radius = Double.parseDouble(getInput.nextLine());
+
+        volumeOfSphere =
+            (4.0 / 3.0 * Math.PI * radius * radius * radius);
+
+        System.out.println("Radius is: " + radius);
+        System.out.println("Volume of the Sphere: "
+                                + volumeOfSphere);
+        System.out.println("");
+    }
+}
+        </code>
+    </pre>
+
+    <div><a href="java-start.html">Back to Java Start Page!!!!</a></div>
+    <div><a href="index.html">Back to Front Page!!!!</a>
+    <footer></div>
+    <p>Copyright 2021 Steve Hoskins</p>
+    </footer>
+
+</body>
+</html>
