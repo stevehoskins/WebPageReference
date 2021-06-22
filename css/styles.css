@@ -8,6 +8,11 @@
     background-image: linear-gradient(to right, cyan, blue, cyan);
 }   */
 
+#container {
+    width: 60%;
+    margin: auto;
+}
+
 p   {
     color: white;
 }
@@ -15,10 +20,12 @@ p   {
 h1  {
     text-align: center;
     color: black;
+    font-size: 2em;
 }
 
 h2  {
     text-align: center;
+    color: black;
 }
 
 a  {
@@ -40,7 +47,8 @@ header {
 }
 
 footer p  {
-    color: white;
+    color: black;
+    float: right;
 }
 
 ul li   {
@@ -55,3 +63,5 @@ marquee {
     color: white;
     font-size: 3em;
 }
+
+@media 

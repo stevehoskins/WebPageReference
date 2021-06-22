@@ -1,0 +1,510 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"number",
+				"numberIn"
+			],
+			[
+				"a",
+				"a_Value"
+			],
+			[
+				"M",
+				"MyMethods"
+			],
+			[
+				"this",
+				"thisTesting"
+			],
+			[
+				"tf",
+				"tfOutput2"
+			],
+			[
+				"h",
+				"h2\tTag"
+			],
+			[
+				"vol",
+				"volumeOfSphere"
+			],
+			[
+				"prin",
+				"println"
+			],
+			[
+				"sy",
+				"System"
+			],
+			[
+				"area",
+				"areaOfCircle"
+			],
+			[
+				"are",
+				"areaOfCircle"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"ja",
+				"JavaTest"
+			],
+			[
+				"pri",
+				"println"
+			],
+			[
+				"S",
+				"System"
+			],
+			[
+				"cl",
+				"class"
+			],
+			[
+				"st",
+				"static"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"i",
+				"innerHTML"
+			],
+			[
+				"g",
+				"getElementById"
+			],
+			[
+				"f",
+				"footer\tTag"
+			],
+			[
+				"ali",
+				"align-content\tproperty"
+			],
+			[
+				"b",
+				"background\tproperty"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"font-",
+				"font-size\tproperty"
+			],
+			[
+				"co",
+				"code\tTag"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"he",
+				"header\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index_try_Columns.html",
+			"settings":
+			{
+				"buffer_size": 2935,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n* {\n  box-sizing: border-box;\n}\n\n/* Create two equal columns that floats next to each other */\n.column {\n  float: left;\n  width: 50%;\n  padding: 10px;\n  height: 300px; /* Should be removed. Only for demonstration */\n}\n\n/* Clear floats after the columns */\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n</style>\n</head>\n<body>\n\n<h2>Two Equal Columns</h2>\n\n<div class=\"row\">\n  <div class=\"column\" style=\"background-color:#aaa;\">\n    <h2>Column 1</h2>\n    <p>Some text..</p>\n  </div>\n  <div class=\"column\" style=\"background-color:#bbb;\">\n    <h2>Column 2</h2>\n    <p>Some text..</p>\n  </div>\n</div>\n\n</body>\n</html>",
+			"settings":
+			{
+				"buffer_size": 736,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Java/JavaC.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"View In Browser"
+			],
+			[
+				"ja",
+				"Set Syntax: Java"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"java HelloWorld"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Steve/Documents/WebPageReference/index.sublime-project",
+		"/C/Users/Steve/Documents/WebPageReference/index.html",
+		"/C/Users/Steve/Documents/WebPageReference/java-start.html",
+		"/C/Users/Steve/Documents/WebPageReference/css/styles.css",
+		"/C/Users/Steve/Documents/WebPageReference/java-show-code.html",
+		"/C/Users/Steve/Documents/Java/MyMethods.java",
+		"/C/Users/Steve/Documents/Java/TestMethods.java",
+		"/C/Users/Steve/Documents/JavaTest/SwingTrialsWithTesting.java",
+		"/C/Users/Steve/Documents/Java/SwingTrials.java",
+		"/C/Users/Steve/Documents/JavaTest/someMaths.java",
+		"/C/Users/Steve/Documents/JavaTest/JavaTest.java",
+		"/C/Users/Steve/Documents/WebPageReference/this.html",
+		"/C/Users/Steve/Documents/JavaTest/Foo/Person.java",
+		"/C/Users/Steve/Documents/JavaTest/Foo/Student.java",
+		"/C/Users/Steve/Documents/JavaTest/RectangleMain.java",
+		"/C/Users/Steve/Documents/JavaTest/Rectangle.java",
+		"/C/Users/Steve/Documents/JavaTest/Calculator.java",
+		"/C/Users/Steve/Documents/JavaTest/MultiClass.java",
+		"/C/Users/Steve/Documents/Java/MouseMotionDemo.java",
+		"/C/Users/Steve/Documents/Java/SwingAccumulator.java",
+		"/C/Users/Steve/Documents/JavaReference/index.html",
+		"/C/Users/Steve/Documents/JavaReference/HelloWorld.java",
+		"/C/Users/Steve/Documents/WebPageReference/hello-world.html",
+		"/C/Users/Steve/Documents/WebPageReference/without-a-tag.html",
+		"/C/Users/Steve/Documents/WebPageReference/responsive-web-design.html",
+		"/C/Users/Steve/Documents/JavascriptReference/xml/cd_catalog.xml",
+		"/C/Users/Steve/Documents/WebPageReference/glass-morphism.html",
+		"/C/Users/Steve/Documents/WebPageReference/absolute-positioning.html",
+		"/C/Users/Steve/Documents/WebPageReference/background-colour-gradient-01.html",
+		"/C/Users/Steve/Documents/Javascript/DEMO02.html",
+		"/C/Users/Steve/Documents/Javascript/demo01.html",
+		"/C/Users/Steve/Documents/Javascript/GetElementByID.html",
+		"/C/Users/Steve/Documents/Javascript/DEMO.html",
+		"/C/Users/Steve/Documents/Java/SwingTemplate.java",
+		"/C/Users/Steve/Documents/Java/AWTCounter/AWTCounter.java",
+		"/C/Users/Steve/Documents/Java/WindowEventDemoWithInnerClass.java",
+		"/C/Users/Steve/Documents/JavascriptReference/cd_catalog.html",
+		"/C/Users/Steve/Documents/WebPageReference/test-input-js.html",
+		"/C/Users/Steve/Documents/WebPageReference/floating-images-wth-z-index.html",
+		"/C/Users/Steve/Documents/WebTributePage/css/styles.css",
+		"/C/Users/Steve/Documents/WebPageReference/basic-floating-images.html",
+		"/C/Users/Steve/Documents/WebTributePage/index.html",
+		"/C/Users/Steve/Documents/WebPageReference/marquee-basic.html",
+		"/C/Users/Steve/Documents/WebPageReference/github-and-git.html",
+		"/C/Users/Steve/Documents/WebPageReference/background-colour-gradient-02.html",
+		"/C/Users/Steve/Documents/WebPageReference/static-positioning.html",
+		"/C/Users/Steve/Documents/WebPageReference/floating-images.html",
+		"/C/Users/Steve/Documents/WebPageReference/gradient-background-colour-01.html",
+		"/C/Users/Steve/Documents/WebPageReference/moving-image-01.html",
+		"/C/Users/Steve/Documents/WebPageReference/showing-code.html",
+		"/C/Users/Steve/Documents/WebPageReference/separate-files.html",
+		"/C/Users/Steve/Documents/WebPageReference/box-model.html",
+		"/C/Users/Steve/Documents/WebPageReference/relative-positioning.html",
+		"/C/Users/Steve/Documents/WebPageReference/center-positioning-exact.html",
+		"/C/Users/Steve/Documents/WebPageReference/center-positioning-horizontal.html",
+		"/C/Users/Steve/Documents/WebPageReference/fixed-positioning.html",
+		"/C/Users/Steve/Documents/WebPageReference/floating-rectangles.html",
+		"/C/Users/Steve/Documents/WebPageReference/css/a-file.css",
+		"/C/Users/Steve/Documents/WebPageReference/css/try.css",
+		"/C/Users/Steve/Documents/WebPageReference/anotherTest.html",
+		"/C/Users/Steve/Documents/WebPageReference/thingx.html",
+		"/C/Users/Steve/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/C/Users/Steve/Documents/HTML/Basic_Code/links.html",
+		"/C/Users/Steve/Documents/HTML SCC and Javascript for Web Develpers/Lecture 23 - Media Quries/media-queries-after.html",
+		"/C/Users/Steve/Documents/HTML/Basic_Code/css/styles.css",
+		"/C/Users/Steve/Documents/HTML/Basic_Code/images_with_media_queries.html",
+		"/C/Users/Steve/Documents/WebPageReference/atest.html",
+		"/C/Users/Steve/Documents/Example Web Page/StyleSheet.css",
+		"/C/Users/Steve/Documents/HTML SCC and Javascript for Web Develpers/Lecture 21 - Floating/floating-after.html",
+		"/C/Users/Steve/Documents/HTML SCC and Javascript for Web Develpers/Lecture 22 - Element Positioning/positioning-after.html",
+		"/C/Users/Steve/Documents/Example Web Page/atest.html",
+		"/C/Users/Steve/coursera/coursera-test/site/index.html",
+		"/C/Users/Steve/Documents/WebPageReference/.git/index",
+		"/C/Users/Steve/Documents/HTML SCC and Javascript for Web Develpers/Lecture 22/positioning-after.html",
+		"/C/Users/Steve/Documents/HTML SCC and Javascript for Web Develpers/Lecture 32/index.html",
+		"/C/Users/Steve/Documents/HTML SCC and Javascript for Web Develpers/Lecture 32/js/script.js",
+		"/C/Users/Steve/Documents/HTML SCC and Javascript for Web Develpers/Lecture 32/js/jquery-2.1.4.min.js",
+		"/C/Users/Steve/Documents/HTML SCC and Javascript for Web Develpers/Lecture 32/css/styles.css",
+		"/C/Users/Steve/Documents/HTML SCC and Javascript for Web Develpers/Lecture 19 - Box Model/box-model-after.html",
+		"/C/Users/Steve/Documents/HTML/Basic_Code/UL_and_OL.html",
+		"/C/Users/Steve/Documents/HTML/Basic Code/images.html",
+		"/C/Users/Steve/Documents/HTML/Basic Code/test.html",
+		"/C/Users/Steve/Documents/HTML/Bootstrap/index.html",
+		"/C/Users/Steve/Documents/HTML/Bootstrap/grid-after.html",
+		"/C/Users/Steve/Documents/HTML/Bootstrap/js/script.js",
+		"/C/Users/Steve/Documents/HTML/Bootstrap/css/styles.css",
+		"/C/Users/Steve/Documents/HTML/Bootstrap/jquery-1.11.3.min.js",
+		"/C/Users/Steve/Documents/HTML/styling-text-before.html",
+		"/C/Users/Steve/Documents/HTML/font-size-before.html",
+		"/C/Users/Steve/Documents/HTML/box-model-before.html",
+		"/C/Users/Steve/Documents/HTML/floating-before.html",
+		"/C/Users/Steve/Documents/HTML/two-column-after.html",
+		"/C/Users/Steve/Documents/HTML/media-queries-before.html",
+		"/C/Users/Steve/Documents/HTML/index.html",
+		"/C/Users/Steve/coursera-test2/site/index.html",
+		"/C/Users/Steve/coursera-test2/site/images.html",
+		"/C/Users/Steve/coursera-test2/site/css-syntax.html",
+		"/C/Users/Steve/coursera-test2/site/karen1.html",
+		"/C/Users/Steve/Documents/HTML/Hello-Karen.html",
+		"/C/Users/Steve/Documents/HTML/pseudo-selectors-before.html",
+		"/C/Users/Steve/Documents/HTML/style.css",
+		"/C/Users/Steve/Documents/HTML/style-placement.html",
+		"/C/Users/Steve/Documents/HTML/pseudo-selectors-after.html",
+		"/C/Users/Steve/Documents/HTML/Fiish.html",
+		"/C/Users/Steve/Documents/HTML/createGrid_01.html",
+		"/C/Users/Steve/Documents/HTML SCC and Javascript for Web Develpers/unordered-lists-before.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index_try_Columns.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2935,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										440,
+										440
+									]
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								856,
+								856
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 736,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								736,
+								736
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
