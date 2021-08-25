@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>How to use the map() function!</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<center><h1>How to use the map() function!</h1></center>
+
+<center><p>The Array.map() method creates a new array from the results of calling a function for every element.</p></center>
+<center><p>Any Math function or other calculation can be mapped!</p></center>
+<center><p>Mapped results can be used directly or saved to a new Array!</p></center>
+
+<h2>Numbers</h2>
+<h4 id="demo0"></h4>
+<h2>Square Root of Numbers</h2>
+<h4 id="demo1"></h4>
+<h2>Numbers Squared</h2>
+<h4 id="demo2"></h4>
+<h2>Numbers + 10</h2>
+<h4 id="demo3"></h4>
+<h2>(Numbers + 10) Squared</h2>
+<h4 id="demo4"></h4>
+
+<script>
+const numbers = [4, 9, 16, 25];
+
+numbersSqrt = numbers.map(Math.sqrt);
+numbersSquared = numbers.map(numbers => numbers * numbers);
+
+document.getElementById("demo0").innerHTML = numbers;
+document.getElementById("demo1").innerHTML = numbersSqrt; document.getElementById("demo2").innerHTML = numbersSquared;
+document.getElementById("demo3").innerHTML = numbers.map(numbers => numbers  + 10);
+document.getElementById("demo4").innerHTML = numbers.map(numbers => ((numbers  + 10) * (numbers + 10)));
+</script>
+
+</body>
+    <a href="index.html">Back to Front Page!!!!</a>
+	<footer>
+		<p>Copyright 2021 Steve Hoskins</p>
+	</footer>
+</html>
