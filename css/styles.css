@@ -1,7 +1,11 @@
 *   {
     color: red;
-    background-color: blue;
+    background-color: blueviolet;
 }   
+
+/*
+a:link { color: blue; }
+a:visited { color: red; }
 
 /**   {
     color: red;
@@ -32,6 +36,18 @@ h2  {
     text-align: center;
     color: black;
 }
+
+/*     testing      */
+.entry li a{
+/*    font-size:30px;   */
+    color:#000;
+    font-weight:700;
+}
+
+.entry li a:hover{
+    color:#f00;
+}
+/*                  */
 
 a  {
     text-decoration: none;
