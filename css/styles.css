@@ -1,6 +1,6 @@
 *   {
     color: red;
-    background-color: blueviolet;
+    background-color: darkcyan;
 }   
 
 /*
@@ -57,6 +57,10 @@ a  {
 li  {
     padding: 4px;
     font-size: 1em;
+}
+
+table, th, td   {
+  border:1px solid black;
 }
 
 code  {
